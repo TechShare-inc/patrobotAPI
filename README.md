@@ -185,8 +185,8 @@ async def send_command_to_robot(robot_name, command):
   "process": {
     "sender": "DUMMY_SERVER",
     "duration": "120",
-    "msgtype": "<message type>",
-    "systemctl": "<process commands>"
+    "msgtype": "process",
+    "systemctl": "start_make_map"
   }
 }
 ```
@@ -214,5 +214,5 @@ async def send_command_to_robot(robot_name, command):
 ---
 
 ## 📄 まとめ
-
+このダミーサーバーでの記法を用いることで、PatRobotとのコミュニュケーションを確立することができます。
 
